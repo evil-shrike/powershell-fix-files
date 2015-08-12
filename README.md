@@ -2,6 +2,7 @@
 PowerShell script for managing file names and attributes
 
 # USAGE
+```
 Fix-TS.ps1 <Path> [-filter <filter>] [-fix] [-all] [-rename <rename-options>] [-source <timestamp-source>]
   path    - path to a folder with files to check/fix
   -filter - array of wildcards to filter files, e.g. '*.jpg' , '*.jpg,*.mp4' (without quotes)
@@ -35,3 +36,4 @@ Fix-TS.ps1 <Path> [-filter <filter>] [-fix] [-all] [-rename <rename-options>] [-
         remove all prefixes except 'PANO', i.e. 'PANO_20151207_245959.jpg' will not change
       ./fixts.ps1 /path/to/ -rename add-prefix:jpg=IMG_|mp4=VID_|avi=VID_ 
         add prefix IMG_ for all *.jpg, add prefix VID_ for all *.mp3 and *.avi files
+```
