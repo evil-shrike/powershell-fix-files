@@ -1,5 +1,7 @@
 # powershell-fix-files
-PowerShell script for managing file names and attributes
+PowerShell script `Fix-TS.ps1` for managing file names and attributes.
+
+Please see full story in my blog - http://techblog.dorogin.com/2015/08/organize-your-image-files.html
 
 # USAGE
 ```
